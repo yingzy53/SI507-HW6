@@ -78,7 +78,7 @@ Some JavaScript code
 ```
 
 * **What does a code comment look like in JavaScript? What character/s do you have to put before a comment?**
-''' A code comment is italic and displays in the color of light grey.
+''' \n A code comment is italic and displays in the color of light grey.
 		The characters '//' have to be put before a comment.
 '''
 
