@@ -78,19 +78,23 @@ Some JavaScript code
 ```
 
 * **What does a code comment look like in JavaScript? What character/s do you have to put before a comment?**
-''' \n A code comment is italic and displays in the color of light grey.
+
+''' A code comment is italic and displays in the color of light grey.
 		The characters '//' have to be put before a comment.
 '''
 
 * **Explain what needs to happen to get a JavaScript program to "run", given the JavaScript you've seen in this assignment.**
+
 ''' To get a JavaScript program to 'run', the java script code shall be included in a html file and then open the file in a web browser.
 '''
 
 * **What functions in JavaScript seem to be similar in function to the `print` function in Python? (There are two.) Why might you use one and not the other? Explain briefly.**
+
 '''The first is 'alert' and the other is 'console.log'. I might use the first one to display some outputs in the pop-up box to the one who is opening the file in a web browser and does not know much about code. On the other hand, for the second method, I might use it to display something to the one who knows how to check the console and displays the content that matters to him or her.
 '''
 
 * **What code would have to comment out to get rid of the pop-up box when you load the page? (Related to the last question.) Do that in the code file, and then, add code so that a text box will appear that contains the current date and time! *HINT:* Look through the rest of the code first...**
+
 '''js
 alert("hello")
 '''
@@ -101,10 +105,12 @@ alert(new Date())
 '''
 
 * **How can you put your own name at the top where it currently says "A name"? Explain very briefly how to do so, and replace `A name` in the web page with your own name.**
+
 '''I can replace 'A name' with my own name.
 '''
 
 * **What does the word `document` represent in this code? Explain briefly.**
+
 '''The word 'document' represents an HTML document that can be displayed in the browser.
 Additionally, the Document Object Model can access and modify the content, structure and style of a document.
 '''
@@ -112,19 +118,23 @@ Additionally, the Document Object Model can access and modify the content, struc
 * **What is happening in line 12 (
 		`document.querySelector('#items').innerHTML = document.getElementsByTagName('li').length`
 )? Explain, briefly (<= 2 sentences).**
+
 ''' It is trying to find out how many list items there are for this page.
 There are 9 on this page and the code is like '<li>something<li>'
 '''
 
 * **What color would the background of this page be <u>if there were no JavaScript in this page</u>?**
+
 '''The color would be white.'''
 
 * **Why are there a couple of gray boxes on the screen with a different colored border? How could you edit this code to make them a different color? Explain briefly. Then edit the code to make those boxes some shade of blue, of your choosing.**
+
 '''In the function 'handleClick', the 'background-color' parameter specifies the color of the boxes, which is gray, and the parameter 'border' specifies the color of the border, which is color white.
 I could edit the value of the parameters to make them a different color.
 '''
 
 * **Edit the code so that, if you highlight `McGill University` and copy it, you see the text `O Canada` near the bottom of the page. Briefly explain why you made the edits that you did -- how did you know/figure out what to do?**
+
 '''I figured out what to do because I saw the function 'copyFunction' and tried out to copy 'University of Michigan' and saw the result 'Go blue!' displayed on the bottom of the page. So I add a new 'copyFunction2' to display 'O Canada' for 'McGill University'. I also added 'oncopy="copyFunction2()"' to call the function.
 '''
 
@@ -153,15 +163,18 @@ function handleClick(){
 * **Check out the file `jquerylib_submit_example.html`. This is an example of code that uses a package called `jQuery` (and this will need you to have an internet connection to run it properly, although the other file does not). Check out resources above for more on jQuery!**
 
 * **When you enter input that isn't valid, you see an error that is red. Why is the error in red? Why is the response for valid inputs blue?**
+
 '''Because in the 'text/javascript' type script, the '(document).ready(function())' function has a if-else statement indicating that if the value if is false, it will be categorize into the class 'error' and otherwise into the class 'good'.
 Additionally, style type='text/css' code has specified that the 'error' is assigned to the color 'red' and the 'good' is assigned to the color 'blue'.
 '''
 
 * **What is this line `var regex = /^[a-zA-Z]+$/;` helping with? And if you googled something to figure that out, what did you google, and what, briefly, did you learn? (If you didn't need to google, you can leave that out, but explain briefly what that line is helping the program do, anyway.)**
+
 '''This line is helping the program to recognize whether the input is valid or not. What it means is the input should start with one letter, capitalized or not, and the whole input shall include one or more letters and end with those letters.
 '''
 
 * **What's different about the syntax of conditional statements in JavaScript, compared to Python?**
+
 '''The syntax of conditional statements in JavaScript is as the following.'''
 '''js
 if (condition) {
@@ -172,10 +185,12 @@ if (condition) {
 
 }
 '''
+'''
 The different is that 'elif' in Python is equivalent to 'else if' in JavaScript. Also, in Python the statement after if or elif or else needs to be indented while in JavaScript no indented is need. Additionally, the ':' in Python changed to '{}' in JavaScript.
 '''
 
 * **What do you think the `10000` refers to in the code `.fadeOut(10000)`?**
+
 '''10000 refers to 10 seconds, which is specified as the fade out time.
 '''
 
